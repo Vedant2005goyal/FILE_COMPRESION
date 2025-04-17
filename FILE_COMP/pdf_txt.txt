@@ -1,0 +1,696 @@
+                 A Practical activity Report submitted
+            for Engineering Design Project-II (UTA-024)
+                                      by
+                     Group Number(eg. Group 5)
+               Name of student                  Roll number
+                        Class Group (e.g.CO5)
+
+
+                               Submitted to
+                   Dr./Mr./Ms. ...............................
+
+
+
+
+DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING
+
+THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY, (A
+     DEEMED TO BE UNIVERSITY), PATIALA, PUNJAB
+                                   INDIA
+                 Session-Year (e.g. Jan-May, 2023)
+
+
+
+
+       |Sample File (EST)
+
+    NOTE: Select an appropriate objective only from the following list of
+          experiments while making a softcopy of your report.
+                                   TABLE OF CONTENT
+
+
+
+Sr. No.     Experiment                                 Objective
+                no.
+1         1 (a)             To draw a schematic diagram of receiver to receive specified
+                            pulse width IR signals from gantries using CAD tool (Eagle).
+2         1 (b)             To design a printed circuit board layout of receiver circuit
+                            using CAD tool (Eagle).
+3         2 (a)             To draw a schematic diagram of IR sensor module circuit
+                            (required to move Buggy module on a predefined the path)
+                            using CAD tool (Eagle).
+4         2(b)              To design a printed circuit board layout of IR sensor module
+                            circuit using CAD tool (Eagle).
+5         3 (a)             To draw a schematic diagram of pulse width modulation
+                            (PWM) based transmitter for generating specified pulse width
+                            waveforms for gantries placed at different locations on the path
+                            using CAD tool (Eagle).
+6         3 (b)             To design a printed circuit board layout of pulse width
+                            modulation (PWM) based transmitter circuit using CAD tool
+                            (Eagle).
+7         4                 To solder and test pulse width modulation (PWM) based
+                            receiver circuit (to receive IR signals from gantries connected
+                            to transmitter circuit) on a printed circuit board (PCB).
+8         5                 To solder and test an IR sensor module circuit (which helps
+                            Buggy robot to move on a predefined path) on a printed circuit
+                            board (PCB).
+9         6                 To solder and test a pulse width modulation (PWM) based
+                            transmitter circuit (for gantries placed at different locations on
+                            the path to be followed by Buggy robot) on a printed circuit
+                            board (PCB).
+
+
+
+
+              |Sample File (EST)
+
+                                       Experiment: 4
+Objective:
+To solder and test pulse width modulation (PWM) based receiver circuit (to receive IR
+signals from gantries connected to transmitter circuit) on a printed circuit board (PCB).
+
+Hardware Used: Soldering Station, Connecting wire, Soldering wire, DSO, DSO Probes,
+Soldering Stand, Desoldering Pump, Wire Cutter, Arduino UNO.
+
+Component Used:
+ Sr. No    Name of Components            Value              Specifications        Quantity
+   1.           Resistor                 120k Ω         Carbon Resistor with 5%     1x
+                                                              Tolerance
+   2.             Resistor               100k Ω         Carbon Resistor with 5%     1x
+                                                              Tolerance
+   3.             Resistor                22k Ω         Carbon Resistor with 5%      1x
+                                                              Tolerance
+   4.            Zero PCB                                                            1x
+   5.             Resistor                  1k          Carbon Resistor with 5%     1x
+                                                              Tolerance
+   6.        Shottkey Diode             BPW41N                                       1x
+   7.          Male Header               3-pin                  PCB Header          1x
+   8.      Operational Amplifier        LM311N                 Microcontroller      1x
+
+
+Theory :
+1. Resistor: Resistors are electronic components ...........
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                             Fig. 4.1 various types of resistors [1]
+            (NOTE: Do not copy this image, select other image from internet)
+
+
+
+               |Sample File (EST)
+
+2. Shottkey Diode: The Shottkey Diode is a component which ...............
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports. .
+
+
+
+
+                                 Fig. 4.2 Shottkey Diode [2]
+           (NOTE: Do not copy this image, select other image from internet)
+
+
+3. Led3mm: Led3mm is a sub miniature standard red LED lamp in ..........
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                 Fig. 4.3 Various types of sub miniature standard LED [3]
+           (NOTE: Do not copy this image, select other image from internet)
+
+
+4. Male Header: Male PCB Header is a.......
+
+ NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                               Fig. 4.4 Male PCB Header [4]
+
+           (NOTE: Do not copy this image, select other image from internet)
+
+              |Sample File (EST)
+
+5.Operational Amplifier (LM311N): Operational amplifier is a voltage comparator............
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                        Fig. 4.5 LM311N [5]
+             (NOTE: Do not copy this image, select other image from internet)
+6. Zero PCB: Zero PCB is a ...................
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                      Fig. 4.6 ZERO PCB[6]
+                 (Do not copy this image, select other image from internet)
+
+
+
+
+               |Sample File (EST)
+
+7. Soldering Station: Soldering Stations is a ……………….
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                         Fig. 4.7 Soldering Station[7]
+          (Do not copy this image, select other image from internet)
+
+
+8. Soldering Wire: Soldering Wire is a mixture of……………
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                          Fig. 4.8 Soldering Wire[8]
+          (Do not copy this image, select other image from internet)
+
+
+9. Connecting wire: Connecting wire is a tinned single core …………………
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+         |Sample File (EST)
+
+                         Fig. 4.9 Connecting Wire [9]
+          (Do not copy this image, select other image from internet)
+
+
+10. Wire Cutter: Wire cutter is a tool……………
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                              Fig. 4.10 Wire Cutter [10]
+
+          (Do not copy this image, select other image from internet)
+
+
+11. Desoldering Pump: Desoldering pump is tool used for……………….
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                        Fig. 4.11 Desoldering Pump[11]
+          (Do not copy this image, select other image from internet)
+         |Sample File (EST)
+
+12. PCB Holder: PCB holder is a equipment…………….
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                        Fig. 4.12 Desoldering Pump[12]
+          (Do not copy this image, select other image from internet)
+
+
+13. DSO: DSO is used to………………………
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                              Fig. 4.13 DSO [12]
+          (Do not copy this image, select other image from internet)
+
+
+14. DSO Probes: DSO Probes are………..
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+         |Sample File (EST)
+
+                              Fig. 4.14 DSO Probes [13]
+              (Do not copy this image, select other image from internet)
+
+
+Circuit Layout:
+
+
+
+
+                        Fig. 4.15 Front side of receiver circuit
+                  (Do not copy this image, select your PCB image)
+
+
+
+
+                        Fig. 4.16 Back side of Receiver circuit
+                  (Do not copy this image, select your PCB image)
+
+
+
+            |Sample File (EST)
+
+Testing of Receiver circuit & output waveform:
+
+
+
+
+                      Fig. 4.17 Setup for testing of Receiver circuit
+                  (Do not copy this image, select your testing setup)
+
+
+
+
+                 Fig. 4.18 Output PWM waveform from receiver circuit
+             (Do not copy this image, select your output PWM waveform)
+
+
+
+
+             |Sample File (EST)
+
+Working: Explain its working…………….
+NOTE: Discuss the working in your way of writing without plagiarism.
+Results: Explain results……….
+
+NOTE: Discuss the result in your way of writing without plagiarism.
+Discussion:
+In this experiment, we have learnt how ........................................
+
+NOTE: Discuss this experiment in your way of writing without plagiarism.
+Reference:
+[1] https://www.electricaltechnology.org/2015/01/resistor-types-resistors-fixed-variable-
+linear-non-linear.html
+[2]
+[3]
+
+
+
+
+                                                                      Signature of Faculty member
+                 |Sample File (EST)
+
+                                        Experiment: 5
+Objective:
+To solder and test an IR sensor module circuit (which helps Buggy robot to move on a
+predefined path) on a printed circuit board (PCB).
+
+Hardware Used: Soldering Station, Connecting wire, Soldering wire, DSO, DSO Probes,
+Soldering Stand, Desoldering Pump, Wire Cutter.
+
+Component Used:
+  Sr.      Name of Components             Value                Specifications      Quantity
+  No
+  1.               Resistor               220 Ω          Carbon Resistor with 5%     4x
+                                                               Tolerance
+   2.              Resistor               10k Ω          Carbon Resistor with 5%     2x
+                                                               Tolerance
+   3.           Potentiometer             10k Ω                                       2x
+   4.             Zero PCB                                                            1x
+   5.            led3mm                     5V                  Dome Lamp            2x
+   6.         IR Transmitter             SFH482                                       2x
+   7.          IR Receiver               BPX65                 PCB Header            2x
+   8.      Operational Amplifier         LM358P               Microcontroller        1x
+
+
+
+
+Theory :
+   •    Resistor: Resistors are electronic components ...........
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                              Fig. 5.1 various types of resistors [1]
+            (NOTE: Do not copy this image, select other image from internet)
+
+
+               |Sample File (EST)
+
+2. IR Trasmitter (BPX65): The IR Transmitter is a component which ...............
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports. .
+
+
+
+
+                               Fig. 5.2 various types of IR [2]
+           (NOTE: Do not copy this image, select other image from internet)
+
+
+3. IR Receiver (SFH482): The IR Receiver is a component which ...............
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports. .
+
+
+
+
+                              Fig. 5.3 Various types of IR [2]
+           (NOTE: Do not copy this image, select other image from internet)
+
+
+
+3. Led3mm: LED3mm is a sub miniature standard red LED lamp in ..........
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                 Fig. 5.4 Various types of sub miniature standard LED [3]
+           (NOTE: Do not copy this image, select other image from internet)
+             |Sample File (EST)
+
+4. Potentiometer: Potentiometer is a.......
+
+ NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                    Fig. 5.5 Potentiometer [4]
+            (NOTE: Do not copy this image, select other image from internet)
+
+
+5. Operational Amplifier (LM358P): Operational amplifier is a voltage comparator ...........
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                      Fig. 5.6 LM358P [5]
+            (NOTE: Do not copy this image, select other image from internet)
+
+               |Sample File (EST)
+
+6. Zero PCB: Zero PCB is a ...................
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                      Fig. 5.7 ZERO PCB[6]
+                 (Do not copy this image, select other image from internet)
+
+Circuit Layout:
+
+
+
+
+                                  Fig. 5.8 Front side of IR circuit
+                       (Do not copy this image, select your PCB image)
+
+
+
+               |Sample File (EST)
+
+                              Fig. 5.9 Back side of IR circuit
+                     (Do not copy this image, select your PCB image)
+
+
+
+Testing of IR circuit :
+
+
+
+
+Fig. 5.10 Setup for testing of Receiver circuit when One IR pair on black and other on white
+                                            surface
+
+                    (Do not copy this image, select your setup picture)
+
+
+              |Sample File (EST)
+
+Fig. 5.11 Setup for testing of Receiver circuit when both IR pair on black surface
+              (Do not copy this image, select your setup picture)
+
+
+
+
+Fig. 5.12 Setup for testing of Receiver circuit when both IR pair on black surface
+        (Do not copy this image, select your output PWM waveform)
+
+
+
+
+        |Sample File (EST)
+
+Working:
+Explain its working…………….
+
+NOTE: Discuss the working in your way of writing without plagiarism.
+Result:
+Explain its results…………….
+
+NOTE: Discuss the result in your way of writing without plagiarism.
+Discussion:
+In this experiment, we have learnt how ........................................
+
+NOTE: Discuss this experiment in your way of writing without plagiarism.
+
+
+
+Reference:
+[1] https://www.electricaltechnology.org/2015/01/resistor-types-resistors-fixed-variable-
+linear-non-linear.html
+[2]
+
+[3]
+
+
+
+
+                                                                      Signature of Faculty member
+
+                 |Sample File (EST)
+
+                                        Experiment: 6
+Objective: To solder and test a pulse width modulation (PWM) based transmitter circuit
+(for gantries placed at different locations on the path to be followed by Buggy robot) on a
+printed circuit board (PCB).
+
+Hardware Used: Soldering Station, Connecting wire, Soldering wire, DSO, DSO Probes,
+Soldering Stand, Desoldering Pump, Wire Cutter, 9v battery.
+
+Component Used:
+  Sr.           Name of                  Value               Specifications         Quantity
+  No           Components
+  1.             Resistor                220 Ω          Carbon Resistor with 5%        1x
+                                                                Tolerance
+   2.            Capacitor              1000nF           Electrolytic Capacitor        1x
+   3.            Capacitor               10nF              Ceramic Capacitor           1x
+   4.            DCJ0202                   NA                DC Power Jack             1x
+   5.            led3mm                    5V                 Dome Lamp                1x
+   6.           IC 78L05Z                  5V          Positive Voltage Regulator      1x
+   7.           22-23-2031                 NA                 PCB Header               1x
+   8.           ATTINY85                   NA                Microcontroller           1x
+
+
+Theory :
+   •    Resistor: Resistors are electronic components ...........
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                              Fig. 6.1 Various types of resistors [1]
+
+            (NOTE: Do not copy this image, select other image from internet)
+
+2. Capacitor: The capacitor is a component which ...............
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports. .
+
+
+               |Sample File (EST)
+
+                           Fig. 6.2 Various types of capacitors [2]
+            (NOTE: Do not copy this image, select other image from internet)
+
+3. Led3mm: LED3mm is a sub miniature standard red LED lamp in ..........
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                  Fig. 6.3 Various types of sub miniature standard LED [3]
+            (NOTE: Do not copy this image, select other image from internet)
+
+
+4. IC 78L05Z: 78L05Z is a fixed positive voltage regulator.......
+
+ NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                            Fig. 6.4 Voltage regulator 78L05Z [4]
+            (NOTE: Do not copy this image, select other image from internet)
+
+              |Sample File (EST)
+
+5. ATTTINY85: ATTINY85 is a powerful easy to program CMOS................
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                   Fig. 6.5 IC ATTINY85 [5]
+            (NOTE: Do not copy this image, select other image from internet)
+
+
+6.DCJ0202: This is a common barrel-type ...................
+
+NOTE: Explain the component in your way of writing without plagiarism. You may
+take help from internet and contents should not match to other reports.
+
+
+
+
+                                     Fig. 6.6 IC DCJ0202 [6]
+                 (Do not copy this image, select other image from internet)
+
+ 7. 22-23-2031(MTA02-100): 22-23-2031 is a 2.54 mm pitch wire to board connectors .........
+
+
+
+
+                            Fig. 6.7 Series female wire connector[6]
+                 (Do not copy this image, select other image from internet)
+               |Sample File (EST)
+
+Circuit Layout:
+
+
+
+
+                       Fig. 6.8 Front side of Transmitter circuit
+      (NOTE: Do not copy this image, paste your simulated schematic diagram)
+
+
+
+
+                        Fig. 6.9 Back side Transmitter circuit
+
+     (NOTE: Do not copy this image, paste your simulated PCB layout diagram)
+
+
+
+
+            |Sample File (EST)
+
+Testing of Transmitter circuit and output waveforms:
+
+
+
+
+                      Fig. 6.10 Testing setup of Transmitter circuit
+         (NOTE: Do not copy this image; paste your picture of testing setup)
+
+
+
+
+                   Fig. 6.11 PWM waveform 1 of Transmitter circuit
+
+            (NOTE: Do not copy this image, paste your waveform picture)
+
+
+
+
+             |Sample File (EST)
+
+       Fig. 6.12 PWM waveform 2 of Transmitter circuit
+(NOTE: Do not copy this image, paste your waveform picture)
+
+
+
+
+       Fig. 6.13 PWM waveform 2 of Transmitter circuit
+(NOTE: Do not copy this image, paste your waveform picture)
+
+
+
+
+|Sample File (EST)
+
+Working:
+Explain its working…………….
+
+NOTE: Discuss the working in your way of writing without plagiarism.
+
+
+
+Result:
+Explain its results…………….
+
+NOTE: Discuss the result in your way of writing without plagiarism.
+
+
+Discussion:
+In this experiment, we have learnt how ........................................
+
+NOTE: Discuss this experiment in your way of writing without plagiarism.
+
+
+Reference:
+[1] https://www.electricaltechnology.org/2015/01/resistor-types-resistors-fixed-variable-
+linear-non-linear.html
+[2]
+[3]
+
+
+
+
+                                                                      Signature of Faculty member
+                 |Sample File (EST)
+
